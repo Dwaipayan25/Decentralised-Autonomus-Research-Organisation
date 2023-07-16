@@ -1,0 +1,60 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(1,19,42);
+background: linear-gradient(90deg, rgba(1,19,42,1) 0%, rgba(10,19,222,1) 46%, rgba(72,100,201,1) 97%);
+    padding: 70px;
+    /* color: #fff; */
+  }
+  
+  .hero-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-title {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .hero-right {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(21, 8, 166);
+/* background: linear-gradient(90deg, rgba(229,0,255,1) 0%, rgba(72,100,201,1) 97%, rgba(10,19,222,1) 98%); */
+    border-radius: 20px;
+    padding: 30px;
+    height: 120px;
+    /* padding-right: 30px; */
+  }
+  
+  .hero-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    background-color: #076dc1;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .hero-button:hover {
+    background-color: #555;
+  }
+  

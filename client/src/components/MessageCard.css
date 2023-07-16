@@ -1,0 +1,21 @@
+.message-card {
+    font-size: smaller;
+    background-color: #042465;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  
+  .field {
+    margin-bottom: 5px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    margin-left: 10px;
+  }
+  
